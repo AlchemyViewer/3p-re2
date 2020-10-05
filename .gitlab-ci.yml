@@ -3,6 +3,6 @@ include:
     file: '3p-library-build.yml'
 
 variables:
-  AUTOBUILD_PACKAGE_NAME: fmodstudio
-  AUTOBUILD_PACKAGE_DIR: fmodstudio
+  AUTOBUILD_PACKAGE_NAME: re2
+  AUTOBUILD_PACKAGE_DIR: re2
   NO_LNX: 1
