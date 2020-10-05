@@ -1,0 +1,8 @@
+include:
+  - project: 'alchemy/infrastructure/gitlab-ci-config'
+    file: '3p-library-build.yml'
+
+variables:
+  AUTOBUILD_PACKAGE_NAME: fmodstudio
+  AUTOBUILD_PACKAGE_DIR: fmodstudio
+  NO_LNX: 1
